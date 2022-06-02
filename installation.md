@@ -6,13 +6,13 @@ In this tutorial, we will install python via miniconda. However, if you already 
 
 1. In your web browser, navigate to the [miniconda page](https://docs.conda.io/en/latest/miniconda.html).
 2. Scroll down to the "Latest Miniconda Installer Links" section. Click the link to download the appropriate version for your operating system.
-  - **Windows**: Most likely the Miniconda3 Windows 64-bit
-	- **Mac OS**: Choose between Apple M1 (new Macs with Apple Silicon) or MacOSX. Choose the pkg download for an easy installation procedure
+  - **Windows**: Most likely the Miniconda3 Windows 64-bit  
+	- **Mac OS**: Choose between Apple M1 (new Macs with Apple Silicon) or MacOSX. Choose the pkg download for an easy installation procedure  
 3. Once you have downloaded the miniconda installer, run it to install python and follow the installer instructions.
 
 ## Setting up your environment
 1. Open your terminal.
-	- **Windows**: TODO => instructions, test on my loaner
+	- **Windows**: Open Anaconda Prompt
 	- **Mac OS**: Open Terminal (you can search for it in spotlight - cmd + space)
 	- **Linux**: Open your terminal application
 
@@ -34,6 +34,7 @@ In this tutorial, we will install python via miniconda. However, if you already 
 	pip install "napari[all]"
 	pip install jupyterlab
 	pip install imageio
+	pip install imagecodecs
 	```
 
 5. Test that your notebook installation is working. We will be using notebooks for interactive analysis. Enter the command below and it should launch jupyter notebook book in a web browser.

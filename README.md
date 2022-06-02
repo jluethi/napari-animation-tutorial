@@ -1,9 +1,9 @@
 # napari-animation-tutorial
 [napari](https://www.napari.org) tutorial covering installation, basic usage &amp; napari animation functionality
 
-Tutorial organized by @jluethi on 3rd of June, 2022
+Tutorial organized by [@jluethi](https://github.com/jluethi) on 3rd of June, 2022
 
-This tutorial will cover 3 main steps:
+This tutorial will cover 3 main topics:
 1. Setting up a local napari installation on your computer
 2. Basics of getting started in napari
 3. Using the napari animation and screenshot functionality to create images and movies with napari
@@ -16,4 +16,4 @@ This tutorial will cover 3 main steps:
 
 
 ## Sources
-Workshop structure and parts of the installation instructions are based on past napari workshops by @alisterburt & @kevinyamauchi. Find more tutorials on their [workshop repository](https://github.com/alisterburt/napari-workshops).
+Workshop structure, parts of the installation instructions and some of the introduction are based on past napari workshops by [@alisterburt](https://github.com/alisterburt) & [@kevinyamauchi](https://github.com/kevinyamauchi). Find more tutorials on their [workshop repository](https://github.com/alisterburt/napari-workshops).
