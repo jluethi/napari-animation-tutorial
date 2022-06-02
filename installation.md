@@ -35,6 +35,7 @@ In this tutorial, we will install python via miniconda. However, if you already 
 	pip install jupyterlab
 	pip install imageio
 	pip install imagecodecs
+	pip install napari_animation
 	```
 
 5. Test that your notebook installation is working. We will be using notebooks for interactive analysis. Enter the command below and it should launch jupyter notebook book in a web browser.
