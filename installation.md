@@ -49,3 +49,15 @@ In this tutorial, we will install python via miniconda. However, if you already 
 	```
 	napari
 	```
+
+
+## Known issues & workarounds
+1. Conda can't install dependencies because of proxy settings.
+Check whether you have specified proxy variables. For windows, they are set [here](https://docs.oracle.com/en/database/oracle/machine-learning/oml4r/1.5.1/oread/creating-and-modifying-environment-variables-on-windows.html#GUID-DD6F9982-60D5-48F6-8270-A27EC53807D0) and deleting them solved the issues for some users. On Mac, they would be set in the .bashrc or .zshrc file in your home directory.
+
+2. Can't install PyQt5 on M1 macs. `AttributeError: module 'sipbuild.api' has no attribute 'prepare_metadata_for_build_wheel'`
+The problem: The current version of PyQt5 in pip does not support M1 macs. Install manually via conda before installing napari:
+`conda install pyqt`
+
+3. Installing `imagecodecs` fails on M1 Macs
+Install manually using conda: `conda install imagecodecs`
